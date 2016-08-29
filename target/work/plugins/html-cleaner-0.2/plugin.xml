@@ -1,0 +1,23 @@
+<plugin name='html-cleaner' version='0.2' grailsVersion='1.3.7 &gt; *'>
+  <author>Sudhir Nimavat</author>
+  <authorEmail>sudhir_nimavat@yahoo.com</authorEmail>
+  <title>Html Cleaner</title>
+  <description>whitelist based html cleaner based on jsoup</description>
+  <documentation>http://snimavat.github.com/html-cleaner/guide/index.html</documentation>
+  <type>HtmlCleanerGrailsPlugin</type>
+  <resources>
+    <resource>grails.plugin.htmlcleaner.HtmlCleanerTagLib</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies>
+    <compile>
+      <dependency group='org.jsoup' name='jsoup' version='1.7.2' />
+    </compile>
+  </dependencies>
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
